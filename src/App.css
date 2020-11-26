@@ -7,15 +7,22 @@
 }
 
 button {
+  color: #fff;
+  background-color: coral;
+  border: none;
   width: 40px;
   height: 40px;
-  margin: 0 2px;
+  margin: 0 5px;
   font-size: 1.5em;
 }
 
 .Reset {
-  width: 84px;
+  width: 90px;
   display: block;
-  margin-top: 5px;
-  color: red;
+  margin-top: 10px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px gray;
 }
